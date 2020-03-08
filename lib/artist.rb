@@ -20,7 +20,7 @@ class Artist
   
   def add_song_by_name(song_name) #we want to use the add_song method
     song = Song.new(song_name) #set the new song = to song 
-     add_song(song) #and pass it in our add_song method
+     add_song(song) #and pass it in our add_song method,which adds a song to an artist's collection
   end  
 end  
 
