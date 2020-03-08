@@ -11,7 +11,9 @@ class Post
     @@all
   end
 
-def  
+ def author_name 
+  self.name ? self.artist.name : nil
+ end
   
   
 end  
