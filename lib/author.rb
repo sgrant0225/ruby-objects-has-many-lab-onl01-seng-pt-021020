@@ -8,7 +8,8 @@ class Author
  end
  
  def posts 
-   Post.all 
+   Post.all.select do |post|
+     
    binding.pry
  end   
  
