@@ -23,7 +23,7 @@ class Artist
     add_song(new_song) #and pass it in our add_song method,which adds a song to an artist's collection
   end 
   
-  def self.song_count
+  def self.song_count #returns a total num of songs
    
   end  
 end  
