@@ -7,4 +7,8 @@ class Post
    @@all << self
   end 
   
+  def self.all #class method returns an array of all post instances
+    @@all
+  end
+  
 end  
