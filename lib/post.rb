@@ -10,7 +10,8 @@ class Post
   def self.all #class method returns an array of all post instances this is equivalent to Post.all
     @@all
   end
-  
+
+def  
   
   
 end  
