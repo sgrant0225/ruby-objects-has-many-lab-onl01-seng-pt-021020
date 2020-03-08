@@ -18,7 +18,7 @@ class Artist
       song.artist = self #song argument is an instance of Song
   end
   
-  def add_song_by_name(song_name)
+  def add_song_by_name(song_name) 
   binding.pry
   end  
 end  
