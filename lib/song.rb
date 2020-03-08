@@ -14,9 +14,9 @@ class Song
  
  def artist_name #artist_name knows the name of its artist if not returns nil
     if
-      artist.name = self.artist.name
+       self.artist.name == nil
     else
-      nil
+      self.artist.name
    #binding.pry
    end
  end 
