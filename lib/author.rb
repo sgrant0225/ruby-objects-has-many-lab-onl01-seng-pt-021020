@@ -9,6 +9,7 @@ class Author
  
  def posts 
    Post.all 
+   binding.pry
  end   
  
  
