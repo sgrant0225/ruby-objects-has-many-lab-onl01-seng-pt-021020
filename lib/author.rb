@@ -24,5 +24,6 @@ class Author
  
  def self.post_count 
    self
- 
+  binding.pry
+ end
 end  
