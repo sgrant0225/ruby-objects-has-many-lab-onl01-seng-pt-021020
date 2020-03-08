@@ -8,7 +8,7 @@ class Author
  end
  
  def posts 
- binding.pry
+ 
  end   
  
  
