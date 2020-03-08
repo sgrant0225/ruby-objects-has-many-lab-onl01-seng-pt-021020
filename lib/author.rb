@@ -14,7 +14,7 @@ class Author
  end   
  
  def add_post(post) #tells the post it belongs to that author
-   post = self
+   post.author = self
  end 
  
  
