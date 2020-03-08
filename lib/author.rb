@@ -13,8 +13,8 @@ class Author
   end
  end   
  
- def add_post(post)
-   
+ def add_post(post) #tells the post it belongs to that author
+   binding.pry
  end 
  
  
