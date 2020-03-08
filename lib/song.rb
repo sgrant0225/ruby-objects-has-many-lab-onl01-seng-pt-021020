@@ -14,9 +14,9 @@ class Song
  
  def artist_name #artist_name knows the name of its artist if not returns nil
     # if self.artist == nil 
-    # else
-    #   self.artist.name
-   self.artist ? self.artist.name : nil
+    # else             
+    #   self.artist.name 
+   self.artist ? self.artist.name : nil #2nd option with ternary op
  end 
   
 end  
