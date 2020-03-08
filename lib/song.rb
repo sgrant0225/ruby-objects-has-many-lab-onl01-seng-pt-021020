@@ -17,7 +17,6 @@ class Song
     # else
     #   self.artist.name
    self.artist ? nil : self.artist.name
-   end
  end 
   
 end  
