@@ -18,6 +18,7 @@ class Song
     else
       nil
    #binding.pry
+   end
  end 
   
 end  
