@@ -11,12 +11,16 @@ class Artist
   def songs
    Song.all.select do |song|
      song.artist == self #self is the instance of that artist we currently working on
+    end
    end
-  end
+   
    def add_song(song) #tell song it belongs to that artist
-      song.artist = self #song argument is an instance of Song
-   end 
-
+      song.artist = self #song argument is an instance of Songend 
+  end
+  
+  def add_song_by_name(song_name)
+  
+  end  
 end  
 
 
