@@ -13,7 +13,7 @@ class Song
  end  
  
  def artist_name
-   artist.name = artist
+   artist = self.name
    #binding.pry
  end 
   
