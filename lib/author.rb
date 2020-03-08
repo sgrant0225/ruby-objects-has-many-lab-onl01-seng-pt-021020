@@ -11,6 +11,7 @@ class Author
    Post.all.select do |post|
      
    binding.pry
+  end
  end   
  
  
