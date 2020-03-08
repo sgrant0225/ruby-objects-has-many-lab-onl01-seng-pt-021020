@@ -17,7 +17,7 @@ class Song
        self.artist == nil
     else
       self.artist.name
-   binding.pry
+   #binding.pry
    end
  end 
   
