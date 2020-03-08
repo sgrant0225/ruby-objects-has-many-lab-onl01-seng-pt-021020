@@ -23,7 +23,7 @@ class Author
  end 
  
  def self.post_count 
-   self.post.count
+   self.posts.count
   #binding.pry
  end
 end  
